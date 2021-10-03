@@ -4,7 +4,7 @@
     import { onMount } from 'svelte';
     import registerLanguages from './languages/i18n';
     import Card from './components/Card.svelte';
-    import Credits from './components/Credits.svelte';
+    //import Credits from './components/Credits.svelte';
     import SmoothResize from './components/SmoothResize.svelte';
     import QuestionView from './components/QuestionView.svelte';
     import Row from './components/Row.svelte';
@@ -126,7 +126,7 @@
                     >
                 </Row>
 
-                <Credits />
+                <!--Credits /-->
             </Container>
         </Loading>
     </Card>

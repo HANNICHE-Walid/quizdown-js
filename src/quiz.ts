@@ -257,7 +257,17 @@ export class Quiz {
 
     evaluate(): number {
         var points = 0;
+
+        console.log("ev:");
         for (var q of this.questions) {
+
+            console.log(q.selected);
+            console.log("sellll + 0");
+            for (var a of q.selected) {
+                console.log(q.answers[a]);
+            }
+
+
             if (q.isCorrect()) {
                 points += 1;
             }
